@@ -1,0 +1,25 @@
+{
+  "members": [
+    {
+      "id": "7",
+      "name": "infernalPresident",
+      "role": "president",
+      "email": "infernalp@gm",
+      "linkedin": "infernalPresident"
+    },
+    {
+      "id": "99",
+      "name": "pushpa",
+      "role": "flower",
+      "email": "pushpa@gmail.com",
+      "linkedin": "ye ky hota he bhai"
+    },
+    {
+      "id": "6",
+      "name": "basanti",
+      "role": "dancer",
+      "email": "nachbasanti@gamil.com",
+      "linkedin": "ghr ja k banaungi pkka"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+using material ui here 
+
+Typography in mui is similar to p tag in html
+
+styling is done through makeStyles -- 
+link is used for hex color selection--http://hexcolorspicker.com/tools/materialui/materialuicolors/materialuicolors/index.html
+
+for now the only bug is for default routing ---when user types utpataang things in url after slash then he should be landed to the Noteform page
+
+
+//Database will hold the data of user in json file ---
+//concurrently npm ---used to run your project in a single server 
+
+//we will use exios to hit the api
+
+if we want that style property applied at the parent class must be shown at the child class
+
+for form we are importing form control api from material ui
+
+
+//service folder will contain all api's.
+
+use Effect()
+
+
+
+<FormGroup className={classes.container}>
+            <div><h2 style={{color:"white", background:"#673AB7", textAlign:"center"}}>Join Now </h2></div>
+            <FormControl>
+                <InputLabel>Id</InputLabel>
+                <Input onChange={(e)=> onValueChange(e)} name='id' value={id} />
+            </FormControl>
+            <FormControl>
+                <InputLabel>Name</InputLabel>
+                <Input onChange={(e)=> onValueChange(e)} name='name' value={name} />
+            </FormControl>
+            <FormControl>
+                <InputLabel>Role</InputLabel>
+                <Input onChange={(e)=> onValueChange(e)} name='role' value={role} />
+            </FormControl>
+            <FormControl>
+                <InputLabel>Email</InputLabel>
+                <Input onChange={(e)=> onValueChange(e)} name='email' value={email} />
+            </FormControl>
+            <FormControl>
+                <InputLabel>LinkedIn</InputLabel>
+                <Input onChange={(e)=> onValueChange(e)} name='linkedin' value={linkedin} />
+            </FormControl>
+            <Button variant="contained" onClick={()=>addUserDetails()} style={{background :"#673AB7", color:"white", width:"50%", marginLeft:"215px"}}>Add User</Button>
+        </FormGroup>
+
+
+
+
+
+
